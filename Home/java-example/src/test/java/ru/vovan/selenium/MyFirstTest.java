@@ -27,6 +27,7 @@ public class MyFirstTest {
         driver.findElement(By.name("q")).sendKeys("rozetka.ua");
         driver.findElement(By.name("btnG")).click();
         wait.until(titleIs("rozetka.ua - Поиск в Google"));
+
     }
 
     @After
