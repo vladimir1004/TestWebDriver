@@ -4,13 +4,15 @@ import org.junit.After;
 import org.junit.Before;
 import org.junit.Test;
 import org.openqa.selenium.By;
+import org.openqa.selenium.HasCapabilities;
 import org.openqa.selenium.NoSuchElementException;
 import org.openqa.selenium.WebDriver;
-import org.openqa.selenium.edge.EdgeDriver;
+import org.openqa.selenium.chrome.ChromeDriver;
+import org.openqa.selenium.remote.DesiredCapabilities;
 import org.openqa.selenium.support.ui.WebDriverWait;
 
 import static org.junit.Assert.fail;
-// большое спасибо хочется сказать разаработчикам Selenium IDE  за их супер программу!!!!!!!
+// большое спасибо хочется сказать разаработчикам Selenium IDE  за их супер программу и их рекордер!!!!!!!
 
 public class MyFirstTest {
     private WebDriver driver;
@@ -18,7 +20,13 @@ public class MyFirstTest {
 
     @Before
     public void start(){
-        driver = new EdgeDriver();
+                                    //запуск тестов по старой версии!!!
+        // DesiredCapabilities caps = new setCapability(FirefoxDriver.MARIONETTE, false);
+        // driver = new FirefoxDriver(caps);
+        //driver = new FirefoxDriver();
+        //driver = new EdgeDriver();
+        driver = new ChromeDriver();
+        System.out.println(((HasCapabilities) driver) .getCapabilities());
         //wait = new WebDriverWait(driver, 10);
     }
 
@@ -55,5 +63,10 @@ public class MyFirstTest {
     public void stop(){
         driver.quit();
         driver=null;
+    }
+
+    private class setCapability extends DesiredCapabilities {
+        public setCapability(String marionette, boolean b) {
+        }
     }
 }
