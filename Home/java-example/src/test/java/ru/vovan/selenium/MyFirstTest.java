@@ -21,7 +21,7 @@ public class MyFirstTest {
         driver = new FirefoxDriver();
         //driver = new ChromeDriver();
         System.out.println(((HasCapabilities) driver) .getCapabilities());
-        wait = new WebDriverWait(driver, 10);
+        wait = new WebDriverWait(driver, 5);
 
     }
 

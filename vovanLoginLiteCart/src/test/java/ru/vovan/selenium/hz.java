@@ -21,6 +21,7 @@ public class hz {
     public void setUp() throws Exception {
         //driver = new FirefoxDriver();
         driver = new ChromeDriver();
+        //driver = new EdgeDriver();
 
         driver.manage().timeouts().implicitlyWait(5, TimeUnit.SECONDS);
     }
@@ -133,6 +134,7 @@ public class hz {
         driver.findElement(By.xpath("//li[11]/a/span[2]")).click();
         assertTrue(isElementPresent(By.xpath("//li[11]/a/span[2]")));
 
+
         driver.findElement(By.cssSelector("#doc-most_sold_products > a > span.name")).click();
         assertTrue(isElementPresent(By.cssSelector("#doc-most_sold_products > a > span.name")));
 
@@ -180,11 +182,26 @@ public class hz {
         driver.findElement(By.linkText("CSV Import/Export")).click();
         assertTrue(isElementPresent(By.linkText("CSV Import/Export")));
 
+        //driver.findElement(By.cssSelector("name=login"));
+
+
         driver.findElement(By.xpath("//li[16]/a/span[2]")).click();
         assertTrue(isElementPresent(By.xpath("//li[16]/a/span[2]")));
         driver.findElement(By.xpath("//li[17]/a/span[2]")).click();
         assertTrue(isElementPresent(By.xpath("//li[17]/a/span[2]")));
+        driver.get("http://localhost/litecart/en/");
+        for (int second = 0; ; second++) {
+            if (second >= 60) fail("timeout");
+            try {
+                if (isElementPresent(By.cssSelector("#logotype-wrapper>a>img"))) break;
+            } catch (Exception e) {
+            }
+            Thread.sleep(1000);
+        }
+
     }
+
+
 
     @After
     public void tearDown() throws Exception {
@@ -195,7 +212,7 @@ public class hz {
         }
     }
 
-    private boolean isElementPresent(By by) {
+    boolean isElementPresent(By by) {
         try {
             driver.findElement(by);
             return true;
