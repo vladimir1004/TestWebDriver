@@ -30,7 +30,7 @@ public class newPrise {
     @Test
     public void newPriseTest() {
         driver.get("http://localhost/litecart/en/");
-        //получаю арртибуты цены до открытия и расспечатываю
+        //получаю атрибуты цены и цвет утки до открытия и расспечатываю
         WebElement sale1 = driver.findElement(By.cssSelector("strong.campaign-price"));
 
         String color1 = driver.findElement(By.cssSelector("strong.campaign-price")).getCssValue("color");
