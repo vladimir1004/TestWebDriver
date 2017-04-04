@@ -20,7 +20,7 @@ public class newPrise {
     private String baseUrl;
 
     @Before
-    public void setUp() {//throws Exception {
+    public void setUp() throws Exception {
         //driver = new FirefoxDriver();
         driver = new ChromeDriver();
         //driver = new EdgeDriver();
