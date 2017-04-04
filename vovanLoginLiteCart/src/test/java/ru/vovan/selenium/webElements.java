@@ -95,6 +95,7 @@ public class webElements {
         driver.manage().timeouts().implicitlyWait(5, TimeUnit.SECONDS);
         driver.findElements(cssSelector("#table-zones>tbody>tr>td>select"));
 
+
     }
 
 

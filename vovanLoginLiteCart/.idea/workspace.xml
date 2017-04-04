@@ -33,8 +33,10 @@
         <entry file="file://$PROJECT_DIR$/src/test/java/ru/vovan/selenium/hz.java">
           <provider selected="true" editor-type-id="text-editor">
             <state relative-caret-position="221">
-              <caret line="40" column="9" lean-forward="true" selection-start-line="30" selection-start-column="8" selection-end-line="40" selection-end-column="9" />
-              <folding />
+              <caret line="22" column="36" lean-forward="false" selection-start-line="22" selection-start-column="36" selection-end-line="22" selection-end-column="36" />
+              <folding>
+                <element signature="imports" expanded="false" />
+              </folding>
             </state>
           </provider>
         </entry>
@@ -42,9 +44,23 @@
       <file leaf-file-name="sale.java" pinned="false" current-in-tab="false">
         <entry file="file://$PROJECT_DIR$/src/test/java/ru/vovan/selenium/sale.java">
           <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="119">
-              <caret line="16" column="4" lean-forward="false" selection-start-line="16" selection-start-column="4" selection-end-line="16" selection-end-column="4" />
-              <folding />
+            <state relative-caret-position="986">
+              <caret line="67" column="5" lean-forward="false" selection-start-line="59" selection-start-column="8" selection-end-line="67" selection-end-column="5" />
+              <folding>
+                <element signature="imports" expanded="false" />
+              </folding>
+            </state>
+          </provider>
+        </entry>
+      </file>
+      <file leaf-file-name="newPrise.java" pinned="false" current-in-tab="true">
+        <entry file="file://$PROJECT_DIR$/src/test/java/ru/vovan/selenium/newPrise.java">
+          <provider selected="true" editor-type-id="text-editor">
+            <state relative-caret-position="425">
+              <caret line="25" column="36" lean-forward="false" selection-start-line="25" selection-start-column="36" selection-end-line="25" selection-end-column="36" />
+              <folding>
+                <element signature="imports" expanded="true" />
+              </folding>
             </state>
           </provider>
         </entry>
@@ -52,7 +68,7 @@
       <file leaf-file-name="testIsIntervview.java" pinned="false" current-in-tab="false">
         <entry file="file://$PROJECT_DIR$/src/test/java/ru/vovan/selenium/testIsIntervview.java">
           <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="187">
+            <state relative-caret-position="17">
               <caret line="17" column="35" lean-forward="false" selection-start-line="17" selection-start-column="8" selection-end-line="17" selection-end-column="35" />
               <folding />
             </state>
@@ -62,33 +78,41 @@
       <file leaf-file-name="webElements.java" pinned="false" current-in-tab="false">
         <entry file="file://$PROJECT_DIR$/src/test/java/ru/vovan/selenium/webElements.java">
           <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="56">
-              <caret line="37" column="62" lean-forward="false" selection-start-line="37" selection-start-column="20" selection-end-line="37" selection-end-column="62" />
-              <folding>
-                <element signature="imports" expanded="true" />
-              </folding>
+            <state relative-caret-position="1462">
+              <caret line="96" column="0" lean-forward="false" selection-start-line="96" selection-start-column="0" selection-end-line="96" selection-end-column="0" />
+              <folding />
             </state>
           </provider>
         </entry>
       </file>
-      <file leaf-file-name="createAccount.java" pinned="false" current-in-tab="true">
+      <file leaf-file-name="createAccount.java" pinned="false" current-in-tab="false">
         <entry file="file://$PROJECT_DIR$/src/test/java/ru/vovan/selenium/createAccount.java">
           <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="1462">
-              <caret line="86" column="55" lean-forward="false" selection-start-line="86" selection-start-column="55" selection-end-line="86" selection-end-column="55" />
-              <folding>
-                <element signature="imports" expanded="true" />
-              </folding>
+            <state relative-caret-position="102">
+              <caret line="33" column="56" lean-forward="false" selection-start-line="33" selection-start-column="40" selection-end-line="33" selection-end-column="56" />
+              <folding />
             </state>
           </provider>
         </entry>
       </file>
-      <file leaf-file-name="gg.java" pinned="false" current-in-tab="false">
-        <entry file="file://$PROJECT_DIR$/src/test/java/ru/vovan/selenium/gg.java">
+      <file leaf-file-name="recycleBin.java" pinned="false" current-in-tab="false">
+        <entry file="file://$PROJECT_DIR$/src/test/java/ru/vovan/selenium/recycleBin.java">
           <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="85">
-              <caret line="5" column="15" lean-forward="false" selection-start-line="5" selection-start-column="15" selection-end-line="5" selection-end-column="15" />
+            <state relative-caret-position="459">
+              <caret line="27" column="73" lean-forward="false" selection-start-line="27" selection-start-column="8" selection-end-line="27" selection-end-column="73" />
               <folding />
+            </state>
+          </provider>
+        </entry>
+      </file>
+      <file leaf-file-name="hhh.java" pinned="false" current-in-tab="false">
+        <entry file="file://$PROJECT_DIR$/src/test/java/ru/vovan/selenium/hhh.java">
+          <provider selected="true" editor-type-id="text-editor">
+            <state relative-caret-position="119">
+              <caret line="19" column="0" lean-forward="false" selection-start-line="19" selection-start-column="0" selection-end-line="19" selection-end-column="0" />
+              <folding>
+                <element signature="imports" expanded="true" />
+              </folding>
             </state>
           </provider>
         </entry>
@@ -514,17 +538,21 @@
         <option value="$PROJECT_DIR$/src/test/java/ru/vovan/selenium/tt1.java" />
         <option value="$PROJECT_DIR$/src/test/java/ru/vovan/selenium/testIsIntervview.java" />
         <option value="$PROJECT_DIR$/src/test/java/ru/vovan/selenium/WebElements.java" />
-        <option value="$PROJECT_DIR$/src/test/java/ru/vovan/selenium/webElements.java" />
-        <option value="$PROJECT_DIR$/src/test/java/ru/vovan/selenium/hz.java" />
         <option value="$PROJECT_DIR$/src/test/java/ru/vovan/selenium/createAccount.java" />
+        <option value="$PROJECT_DIR$/src/test/java/ru/vovan/selenium/gg.java" />
+        <option value="$PROJECT_DIR$/src/test/java/ru/vovan/selenium/recikle_bin.java" />
+        <option value="$PROJECT_DIR$/src/test/java/ru/vovan/selenium/hz.java" />
+        <option value="$PROJECT_DIR$/src/test/java/ru/vovan/selenium/webElements.java" />
+        <option value="$PROJECT_DIR$/src/test/java/ru/vovan/selenium/hhh.java" />
+        <option value="$PROJECT_DIR$/src/test/java/ru/vovan/selenium/recycleBin.java" />
+        <option value="$PROJECT_DIR$/src/test/java/ru/vovan/selenium/newPrise.java" />
       </list>
     </option>
   </component>
   <component name="ProjectFrameBounds">
-    <option name="x" value="-8" />
-    <option name="y" value="-8" />
-    <option name="width" value="1382" />
-    <option name="height" value="744" />
+    <option name="x" value="-7" />
+    <option name="width" value="1378" />
+    <option name="height" value="735" />
   </component>
   <component name="ProjectView">
     <navigator currentView="ProjectPane" proportions="" version="1">
@@ -541,8 +569,9 @@
       <foldersAlwaysOnTop value="true" />
     </navigator>
     <panes>
-      <pane id="Scratches" />
+      <pane id="PackagesPane" />
       <pane id="Scope" />
+      <pane id="Scratches" />
       <pane id="ProjectPane">
         <subPane>
           <PATH>
@@ -583,7 +612,6 @@
           </PATH>
         </subPane>
       </pane>
-      <pane id="PackagesPane" />
     </panes>
   </component>
   <component name="PropertiesComponent">
@@ -601,8 +629,8 @@
       </list>
     </option>
   </component>
-  <component name="RunManager" selected="JUnit.createAccount.testCreateAccount">
-    <configuration default="false" name="webElements.locationCountry" type="JUnit" factoryName="JUnit" temporary="true" nameIsGenerated="true">
+  <component name="RunManager" selected="JUnit.newPrise.newPriseTest">
+    <configuration default="false" name="recycleBin.testRemove" type="JUnit" factoryName="JUnit" temporary="true" nameIsGenerated="true">
       <extension name="coverage" enabled="false" merge="false" sample_coverage="true" runner="idea">
         <pattern>
           <option name="PATTERN" value="ru.vovan.selenium.*" />
@@ -613,8 +641,8 @@
       <option name="ALTERNATIVE_JRE_PATH_ENABLED" value="false" />
       <option name="ALTERNATIVE_JRE_PATH" />
       <option name="PACKAGE_NAME" value="ru.vovan.selenium" />
-      <option name="MAIN_CLASS_NAME" value="ru.vovan.selenium.webElements" />
-      <option name="METHOD_NAME" value="locationCountry" />
+      <option name="MAIN_CLASS_NAME" value="ru.vovan.selenium.recycleBin" />
+      <option name="METHOD_NAME" value="testRemove" />
       <option name="TEST_OBJECT" value="method" />
       <option name="VM_PARAMETERS" value="-ea" />
       <option name="PARAMETERS" />
@@ -628,7 +656,7 @@
       <patterns />
       <method />
     </configuration>
-    <configuration default="false" name="hz.testHz" type="JUnit" factoryName="JUnit" temporary="true" nameIsGenerated="true">
+    <configuration default="false" name="hhh.testRemove" type="JUnit" factoryName="JUnit" temporary="true" nameIsGenerated="true">
       <extension name="coverage" enabled="false" merge="false" sample_coverage="true" runner="idea">
         <pattern>
           <option name="PATTERN" value="ru.vovan.selenium.*" />
@@ -639,8 +667,8 @@
       <option name="ALTERNATIVE_JRE_PATH_ENABLED" value="false" />
       <option name="ALTERNATIVE_JRE_PATH" />
       <option name="PACKAGE_NAME" value="ru.vovan.selenium" />
-      <option name="MAIN_CLASS_NAME" value="ru.vovan.selenium.hz" />
-      <option name="METHOD_NAME" value="testHz" />
+      <option name="MAIN_CLASS_NAME" value="ru.vovan.selenium.hhh" />
+      <option name="METHOD_NAME" value="testRemove" />
       <option name="TEST_OBJECT" value="method" />
       <option name="VM_PARAMETERS" value="-ea" />
       <option name="PARAMETERS" />
@@ -654,7 +682,7 @@
       <patterns />
       <method />
     </configuration>
-    <configuration default="false" name="hz" type="JUnit" factoryName="JUnit" temporary="true" nameIsGenerated="true">
+    <configuration default="false" name="hhh" type="JUnit" factoryName="JUnit" temporary="true" nameIsGenerated="true">
       <extension name="coverage" enabled="false" merge="false" sample_coverage="true" runner="idea">
         <pattern>
           <option name="PATTERN" value="ru.vovan.selenium.*" />
@@ -665,7 +693,7 @@
       <option name="ALTERNATIVE_JRE_PATH_ENABLED" value="false" />
       <option name="ALTERNATIVE_JRE_PATH" />
       <option name="PACKAGE_NAME" value="ru.vovan.selenium" />
-      <option name="MAIN_CLASS_NAME" value="ru.vovan.selenium.hz" />
+      <option name="MAIN_CLASS_NAME" value="ru.vovan.selenium.hhh" />
       <option name="METHOD_NAME" />
       <option name="TEST_OBJECT" value="class" />
       <option name="VM_PARAMETERS" value="-ea" />
@@ -680,7 +708,7 @@
       <patterns />
       <method />
     </configuration>
-    <configuration default="false" name="createAccount.testCreateAccount" type="JUnit" factoryName="JUnit" temporary="true" nameIsGenerated="true">
+    <configuration default="false" name="newPrise.newPriseTest" type="JUnit" factoryName="JUnit" temporary="true" nameIsGenerated="true">
       <extension name="coverage" enabled="false" merge="false" sample_coverage="true" runner="idea">
         <pattern>
           <option name="PATTERN" value="ru.vovan.selenium.*" />
@@ -691,8 +719,8 @@
       <option name="ALTERNATIVE_JRE_PATH_ENABLED" value="false" />
       <option name="ALTERNATIVE_JRE_PATH" />
       <option name="PACKAGE_NAME" value="ru.vovan.selenium" />
-      <option name="MAIN_CLASS_NAME" value="ru.vovan.selenium.createAccount" />
-      <option name="METHOD_NAME" value="testCreateAccount" />
+      <option name="MAIN_CLASS_NAME" value="ru.vovan.selenium.newPrise" />
+      <option name="METHOD_NAME" value="newPriseTest" />
       <option name="TEST_OBJECT" value="method" />
       <option name="VM_PARAMETERS" value="-ea" />
       <option name="PARAMETERS" />
@@ -706,7 +734,7 @@
       <patterns />
       <method />
     </configuration>
-    <configuration default="false" name="createAccount" type="JUnit" factoryName="JUnit" temporary="true" nameIsGenerated="true">
+    <configuration default="false" name="newPrise" type="JUnit" factoryName="JUnit" temporary="true" nameIsGenerated="true">
       <extension name="coverage" enabled="false" merge="false" sample_coverage="true" runner="idea">
         <pattern>
           <option name="PATTERN" value="ru.vovan.selenium.*" />
@@ -717,7 +745,7 @@
       <option name="ALTERNATIVE_JRE_PATH_ENABLED" value="false" />
       <option name="ALTERNATIVE_JRE_PATH" />
       <option name="PACKAGE_NAME" value="ru.vovan.selenium" />
-      <option name="MAIN_CLASS_NAME" value="ru.vovan.selenium.createAccount" />
+      <option name="MAIN_CLASS_NAME" value="ru.vovan.selenium.newPrise" />
       <option name="METHOD_NAME" />
       <option name="TEST_OBJECT" value="class" />
       <option name="VM_PARAMETERS" value="-ea" />
@@ -912,19 +940,19 @@
       <method />
     </configuration>
     <list size="5">
-      <item index="0" class="java.lang.String" itemvalue="JUnit.webElements.locationCountry" />
-      <item index="1" class="java.lang.String" itemvalue="JUnit.hz.testHz" />
-      <item index="2" class="java.lang.String" itemvalue="JUnit.hz" />
-      <item index="3" class="java.lang.String" itemvalue="JUnit.createAccount.testCreateAccount" />
-      <item index="4" class="java.lang.String" itemvalue="JUnit.createAccount" />
+      <item index="0" class="java.lang.String" itemvalue="JUnit.recycleBin.testRemove" />
+      <item index="1" class="java.lang.String" itemvalue="JUnit.hhh.testRemove" />
+      <item index="2" class="java.lang.String" itemvalue="JUnit.hhh" />
+      <item index="3" class="java.lang.String" itemvalue="JUnit.newPrise.newPriseTest" />
+      <item index="4" class="java.lang.String" itemvalue="JUnit.newPrise" />
     </list>
     <recent_temporary>
       <list size="5">
-        <item index="0" class="java.lang.String" itemvalue="JUnit.createAccount.testCreateAccount" />
-        <item index="1" class="java.lang.String" itemvalue="JUnit.createAccount" />
-        <item index="2" class="java.lang.String" itemvalue="JUnit.hz" />
-        <item index="3" class="java.lang.String" itemvalue="JUnit.hz.testHz" />
-        <item index="4" class="java.lang.String" itemvalue="JUnit.webElements.locationCountry" />
+        <item index="0" class="java.lang.String" itemvalue="JUnit.newPrise.newPriseTest" />
+        <item index="1" class="java.lang.String" itemvalue="JUnit.newPrise" />
+        <item index="2" class="java.lang.String" itemvalue="JUnit.recycleBin.testRemove" />
+        <item index="3" class="java.lang.String" itemvalue="JUnit.hhh.testRemove" />
+        <item index="4" class="java.lang.String" itemvalue="JUnit.hhh" />
       </list>
     </recent_temporary>
   </component>
@@ -942,58 +970,57 @@
     <servers />
   </component>
   <component name="TestHistory">
-    <history-entry file="createAccount_testCreateAccount - 2017.03.31 at 01h 42m 55s.xml">
-      <configuration name="createAccount.testCreateAccount" configurationId="JUnit" />
+    <history-entry file="newPrise_newPriseTest - 2017.04.04 at 22h 02m 08s.xml">
+      <configuration name="newPrise.newPriseTest" configurationId="JUnit" />
     </history-entry>
-    <history-entry file="createAccount_testCreateAccount - 2017.03.31 at 01h 44m 38s.xml">
-      <configuration name="createAccount.testCreateAccount" configurationId="JUnit" />
+    <history-entry file="newPrise_newPriseTest - 2017.04.04 at 22h 02m 55s.xml">
+      <configuration name="newPrise.newPriseTest" configurationId="JUnit" />
     </history-entry>
-    <history-entry file="createAccount_testCreateAccount - 2017.03.31 at 01h 46m 27s.xml">
-      <configuration name="createAccount.testCreateAccount" configurationId="JUnit" />
+    <history-entry file="newPrise_newPriseTest - 2017.04.04 at 22h 04m 19s.xml">
+      <configuration name="newPrise.newPriseTest" configurationId="JUnit" />
     </history-entry>
-    <history-entry file="createAccount_testCreateAccount - 2017.03.31 at 01h 47m 19s.xml">
-      <configuration name="createAccount.testCreateAccount" configurationId="JUnit" />
+    <history-entry file="newPrise_newPriseTest - 2017.04.04 at 22h 05m 43s.xml">
+      <configuration name="newPrise.newPriseTest" configurationId="JUnit" />
     </history-entry>
-    <history-entry file="createAccount_testCreateAccount - 2017.03.31 at 01h 49m 45s.xml">
-      <configuration name="createAccount.testCreateAccount" configurationId="JUnit" />
+    <history-entry file="newPrise_newPriseTest - 2017.04.04 at 22h 07m 39s.xml">
+      <configuration name="newPrise.newPriseTest" configurationId="JUnit" />
     </history-entry>
-    <history-entry file="createAccount_testCreateAccount - 2017.03.31 at 01h 50m 20s.xml">
-      <configuration name="createAccount.testCreateAccount" configurationId="JUnit" />
+    <history-entry file="newPrise_newPriseTest - 2017.04.04 at 22h 32m 11s.xml">
+      <configuration name="newPrise.newPriseTest" configurationId="JUnit" />
     </history-entry>
-    <history-entry file="createAccount_testCreateAccount - 2017.03.31 at 01h 50m 54s.xml">
-      <configuration name="createAccount.testCreateAccount" configurationId="JUnit" />
+    <history-entry file="newPrise_newPriseTest - 2017.04.04 at 22h 35m 07s.xml">
+      <configuration name="newPrise.newPriseTest" configurationId="JUnit" />
     </history-entry>
-    <history-entry file="createAccount_testCreateAccount - 2017.03.31 at 01h 52m 06s.xml">
-      <configuration name="createAccount.testCreateAccount" configurationId="JUnit" />
+    <history-entry file="newPrise_newPriseTest - 2017.04.04 at 22h 37m 26s.xml">
+      <configuration name="newPrise.newPriseTest" configurationId="JUnit" />
     </history-entry>
-    <history-entry file="createAccount_testCreateAccount - 2017.03.31 at 01h 53m 00s.xml">
-      <configuration name="createAccount.testCreateAccount" configurationId="JUnit" />
+    <history-entry file="newPrise_newPriseTest - 2017.04.04 at 22h 43m 46s.xml">
+      <configuration name="newPrise.newPriseTest" configurationId="JUnit" />
     </history-entry>
-    <history-entry file="createAccount_testCreateAccount - 2017.03.31 at 01h 53m 40s.xml">
-      <configuration name="createAccount.testCreateAccount" configurationId="JUnit" />
+    <history-entry file="newPrise_newPriseTest - 2017.04.04 at 22h 45m 26s.xml">
+      <configuration name="newPrise.newPriseTest" configurationId="JUnit" />
     </history-entry>
   </component>
   <component name="ToolWindowManager">
-    <frame x="-8" y="-8" width="1382" height="744" extended-state="6" />
+    <frame x="-7" y="0" width="1378" height="735" extended-state="0" />
     <editor active="true" />
     <layout>
       <window_info id="Palette" active="false" anchor="right" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.33" sideWeight="0.5" order="3" side_tool="false" content_ui="tabs" />
       <window_info id="TODO" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.33" sideWeight="0.5" order="6" side_tool="false" content_ui="tabs" />
       <window_info id="Nl-Palette" active="false" anchor="left" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.33" sideWeight="0.5" order="2" side_tool="false" content_ui="tabs" />
-      <window_info id="Messages" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.32569557" sideWeight="0.5" order="8" side_tool="false" content_ui="tabs" />
+      <window_info id="Messages" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.3255814" sideWeight="0.5" order="8" side_tool="false" content_ui="tabs" />
       <window_info id="Palette&#9;" active="false" anchor="right" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.33" sideWeight="0.5" order="9" side_tool="false" content_ui="tabs" />
       <window_info id="Image Layers" active="false" anchor="left" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.33" sideWeight="0.5" order="7" side_tool="false" content_ui="tabs" />
       <window_info id="Capture Analysis" active="false" anchor="right" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.33" sideWeight="0.5" order="6" side_tool="false" content_ui="tabs" />
       <window_info id="Event Log" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.3289689" sideWeight="0.5" order="7" side_tool="true" content_ui="tabs" />
       <window_info id="Maven Projects" active="false" anchor="right" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.33" sideWeight="0.5" order="4" side_tool="false" content_ui="tabs" />
-      <window_info id="Run" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="true" show_stripe_button="true" weight="0.31914893" sideWeight="0.5" order="2" side_tool="false" content_ui="tabs" />
+      <window_info id="Run" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="true" show_stripe_button="true" weight="0.32392028" sideWeight="0.5" order="2" side_tool="false" content_ui="tabs" />
       <window_info id="Version Control" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="false" weight="0.33" sideWeight="0.5" order="10" side_tool="false" content_ui="tabs" />
       <window_info id="Properties" active="false" anchor="right" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.33" sideWeight="0.5" order="5" side_tool="false" content_ui="tabs" />
-      <window_info id="Terminal" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.33388704" sideWeight="0.5" order="9" side_tool="false" content_ui="tabs" />
+      <window_info id="Terminal" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.33387887" sideWeight="0.5" order="9" side_tool="false" content_ui="tabs" />
       <window_info id="Capture Tool" active="false" anchor="left" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.33" sideWeight="0.5" order="3" side_tool="false" content_ui="tabs" />
       <window_info id="Designer" active="false" anchor="left" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.33" sideWeight="0.5" order="4" side_tool="false" content_ui="tabs" />
-      <window_info id="Project" active="false" anchor="left" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="true" show_stripe_button="true" weight="0.19742814" sideWeight="0.5" order="0" side_tool="false" content_ui="combo" />
-      <window_info id="Find" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.33" sideWeight="0.5" order="1" side_tool="false" content_ui="tabs" />
+      <window_info id="Project" active="false" anchor="left" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="true" show_stripe_button="true" weight="0.2124431" sideWeight="0.5" order="0" side_tool="false" content_ui="combo" />
       <window_info id="Gradle" active="false" anchor="right" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.33" sideWeight="0.5" order="7" side_tool="false" content_ui="tabs" />
       <window_info id="Structure" active="false" anchor="left" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.25" sideWeight="0.5" order="1" side_tool="false" content_ui="tabs" />
       <window_info id="Ant Build" active="false" anchor="right" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.25" sideWeight="0.5" order="1" side_tool="false" content_ui="tabs" />
@@ -1006,6 +1033,7 @@
       <window_info id="Commander" active="false" anchor="right" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.4" sideWeight="0.5" order="0" side_tool="false" content_ui="tabs" />
       <window_info id="Hierarchy" active="false" anchor="right" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.25" sideWeight="0.5" order="2" side_tool="false" content_ui="combo" />
       <window_info id="Inspection" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.4" sideWeight="0.5" order="5" side_tool="false" content_ui="tabs" />
+      <window_info id="Find" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.33" sideWeight="0.5" order="1" side_tool="false" content_ui="tabs" />
     </layout>
     <layout-to-restore>
       <window_info id="Palette" active="false" anchor="right" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.33" sideWeight="0.5" order="3" side_tool="false" content_ui="tabs" />
@@ -1044,7 +1072,15 @@
   </component>
   <component name="XDebuggerManager">
     <breakpoint-manager>
-      <option name="time" value="4" />
+      <breakpoints>
+        <line-breakpoint enabled="true" type="java-line">
+          <url>file://$PROJECT_DIR$/src/test/java/ru/vovan/selenium/recycleBin.java</url>
+          <line>24</line>
+          <properties />
+          <option name="timeStamp" value="4" />
+        </line-breakpoint>
+      </breakpoints>
+      <option name="time" value="5" />
     </breakpoint-manager>
     <watches-manager />
   </component>
@@ -1053,29 +1089,11 @@
     <option name="FILTER_TARGETS" value="false" />
   </component>
   <component name="editorHistoryManager">
-    <entry file="file://$PROJECT_DIR$/src/test/java/ru/vovan/selenium/testIsIntervview.java">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="187">
-          <caret line="17" column="35" lean-forward="false" selection-start-line="17" selection-start-column="8" selection-end-line="17" selection-end-column="35" />
-          <folding />
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/src/test/java/ru/vovan/selenium/gg.java">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="85">
-          <caret line="5" column="15" lean-forward="false" selection-start-line="5" selection-start-column="15" selection-end-line="5" selection-end-column="15" />
-          <folding />
-        </state>
-      </provider>
-    </entry>
     <entry file="file://$PROJECT_DIR$/src/test/java/ru/vovan/selenium/webElements.java">
       <provider selected="true" editor-type-id="text-editor">
         <state relative-caret-position="1462">
           <caret line="96" column="0" lean-forward="true" selection-start-line="96" selection-start-column="0" selection-end-line="96" selection-end-column="0" />
-          <folding>
-            <element signature="imports" expanded="true" />
-          </folding>
+          <folding />
         </state>
       </provider>
     </entry>
@@ -1083,7 +1101,9 @@
       <provider selected="true" editor-type-id="text-editor">
         <state relative-caret-position="1173">
           <caret line="78" column="54" lean-forward="true" selection-start-line="78" selection-start-column="37" selection-end-line="78" selection-end-column="54" />
-          <folding />
+          <folding>
+            <element signature="imports" expanded="false" />
+          </folding>
         </state>
       </provider>
     </entry>
@@ -1091,7 +1111,9 @@
       <provider selected="true" editor-type-id="text-editor">
         <state relative-caret-position="119">
           <caret line="16" column="4" lean-forward="false" selection-start-line="16" selection-start-column="4" selection-end-line="16" selection-end-column="4" />
-          <folding />
+          <folding>
+            <element signature="imports" expanded="false" />
+          </folding>
         </state>
       </provider>
     </entry>
@@ -1103,7 +1125,7 @@
         </state>
       </provider>
     </entry>
-    <entry file="file://$PROJECT_DIR$/src/test/java/ru/vovan/selenium/gg.java">
+    <entry file="file://$PROJECT_DIR$/src/test/java/ru/vovan/selenium/recycleBin.java">
       <provider selected="true" editor-type-id="text-editor">
         <state relative-caret-position="85">
           <caret line="5" column="15" lean-forward="false" selection-start-line="5" selection-start-column="15" selection-end-line="5" selection-end-column="15" />
@@ -1115,9 +1137,7 @@
       <provider selected="true" editor-type-id="text-editor">
         <state relative-caret-position="969">
           <caret line="67" column="64" lean-forward="true" selection-start-line="67" selection-start-column="4" selection-end-line="67" selection-end-column="64" />
-          <folding>
-            <element signature="imports" expanded="true" />
-          </folding>
+          <folding />
         </state>
       </provider>
     </entry>
@@ -1125,7 +1145,9 @@
       <provider selected="true" editor-type-id="text-editor">
         <state relative-caret-position="221">
           <caret line="22" column="36" lean-forward="true" selection-start-line="22" selection-start-column="7" selection-end-line="22" selection-end-column="36" />
-          <folding />
+          <folding>
+            <element signature="imports" expanded="false" />
+          </folding>
         </state>
       </provider>
     </entry>
@@ -1133,11 +1155,13 @@
       <provider selected="true" editor-type-id="text-editor">
         <state relative-caret-position="119">
           <caret line="16" column="4" lean-forward="false" selection-start-line="16" selection-start-column="4" selection-end-line="16" selection-end-column="4" />
-          <folding />
+          <folding>
+            <element signature="imports" expanded="false" />
+          </folding>
         </state>
       </provider>
     </entry>
-    <entry file="file://$PROJECT_DIR$/src/test/java/ru/vovan/selenium/gg.java">
+    <entry file="file://$PROJECT_DIR$/src/test/java/ru/vovan/selenium/recycleBin.java">
       <provider selected="true" editor-type-id="text-editor">
         <state relative-caret-position="85">
           <caret line="5" column="15" lean-forward="false" selection-start-line="5" selection-start-column="15" selection-end-line="5" selection-end-column="15" />
@@ -1157,7 +1181,9 @@
       <provider selected="true" editor-type-id="text-editor">
         <state relative-caret-position="527">
           <caret line="40" column="9" lean-forward="false" selection-start-line="40" selection-start-column="9" selection-end-line="40" selection-end-column="9" />
-          <folding />
+          <folding>
+            <element signature="imports" expanded="false" />
+          </folding>
         </state>
       </provider>
     </entry>
@@ -1165,11 +1191,13 @@
       <provider selected="true" editor-type-id="text-editor">
         <state relative-caret-position="119">
           <caret line="16" column="4" lean-forward="false" selection-start-line="16" selection-start-column="4" selection-end-line="16" selection-end-column="4" />
-          <folding />
+          <folding>
+            <element signature="imports" expanded="false" />
+          </folding>
         </state>
       </provider>
     </entry>
-    <entry file="file://$PROJECT_DIR$/src/test/java/ru/vovan/selenium/gg.java">
+    <entry file="file://$PROJECT_DIR$/src/test/java/ru/vovan/selenium/recycleBin.java">
       <provider selected="true" editor-type-id="text-editor">
         <state relative-caret-position="85">
           <caret line="5" column="15" lean-forward="false" selection-start-line="5" selection-start-column="15" selection-end-line="5" selection-end-column="15" />
@@ -1189,7 +1217,9 @@
       <provider selected="true" editor-type-id="text-editor">
         <state relative-caret-position="680">
           <caret line="40" column="9" lean-forward="true" selection-start-line="40" selection-start-column="9" selection-end-line="40" selection-end-column="9" />
-          <folding />
+          <folding>
+            <element signature="imports" expanded="false" />
+          </folding>
         </state>
       </provider>
     </entry>
@@ -1197,11 +1227,13 @@
       <provider selected="true" editor-type-id="text-editor">
         <state relative-caret-position="272">
           <caret line="16" column="4" lean-forward="false" selection-start-line="16" selection-start-column="4" selection-end-line="16" selection-end-column="4" />
-          <folding />
+          <folding>
+            <element signature="imports" expanded="false" />
+          </folding>
         </state>
       </provider>
     </entry>
-    <entry file="file://$PROJECT_DIR$/src/test/java/ru/vovan/selenium/gg.java">
+    <entry file="file://$PROJECT_DIR$/src/test/java/ru/vovan/selenium/recycleBin.java">
       <provider selected="true" editor-type-id="text-editor">
         <state relative-caret-position="85">
           <caret line="5" column="15" lean-forward="false" selection-start-line="5" selection-start-column="15" selection-end-line="5" selection-end-column="15" />
@@ -1221,7 +1253,9 @@
       <provider selected="true" editor-type-id="text-editor">
         <state relative-caret-position="0">
           <caret line="0" column="0" lean-forward="false" selection-start-line="0" selection-start-column="0" selection-end-line="0" selection-end-column="0" />
-          <folding />
+          <folding>
+            <element signature="imports" expanded="false" />
+          </folding>
         </state>
       </provider>
     </entry>
@@ -1229,11 +1263,13 @@
       <provider selected="true" editor-type-id="text-editor">
         <state relative-caret-position="357">
           <caret line="30" column="49" lean-forward="false" selection-start-line="30" selection-start-column="19" selection-end-line="30" selection-end-column="49" />
-          <folding />
+          <folding>
+            <element signature="imports" expanded="false" />
+          </folding>
         </state>
       </provider>
     </entry>
-    <entry file="file://$PROJECT_DIR$/src/test/java/ru/vovan/selenium/gg.java">
+    <entry file="file://$PROJECT_DIR$/src/test/java/ru/vovan/selenium/recycleBin.java">
       <provider selected="true" editor-type-id="text-editor">
         <state relative-caret-position="85">
           <caret line="5" column="15" lean-forward="false" selection-start-line="5" selection-start-column="15" selection-end-line="5" selection-end-column="15" />
@@ -1245,7 +1281,9 @@
       <provider selected="true" editor-type-id="text-editor">
         <state relative-caret-position="0">
           <caret line="0" column="0" lean-forward="false" selection-start-line="0" selection-start-column="0" selection-end-line="0" selection-end-column="0" />
-          <folding />
+          <folding>
+            <element signature="imports" expanded="false" />
+          </folding>
         </state>
       </provider>
     </entry>
@@ -1253,11 +1291,13 @@
       <provider selected="true" editor-type-id="text-editor">
         <state relative-caret-position="799">
           <caret line="56" column="12" lean-forward="false" selection-start-line="56" selection-start-column="12" selection-end-line="56" selection-end-column="12" />
-          <folding />
+          <folding>
+            <element signature="imports" expanded="false" />
+          </folding>
         </state>
       </provider>
     </entry>
-    <entry file="file://$PROJECT_DIR$/src/test/java/ru/vovan/selenium/gg.java">
+    <entry file="file://$PROJECT_DIR$/src/test/java/ru/vovan/selenium/recycleBin.java">
       <provider selected="true" editor-type-id="text-editor">
         <state relative-caret-position="85">
           <caret line="5" column="15" lean-forward="false" selection-start-line="5" selection-start-column="15" selection-end-line="5" selection-end-column="15" />
@@ -1269,7 +1309,9 @@
       <provider selected="true" editor-type-id="text-editor">
         <state relative-caret-position="0">
           <caret line="0" column="0" lean-forward="false" selection-start-line="0" selection-start-column="0" selection-end-line="0" selection-end-column="0" />
-          <folding />
+          <folding>
+            <element signature="imports" expanded="false" />
+          </folding>
         </state>
       </provider>
     </entry>
@@ -1277,11 +1319,13 @@
       <provider selected="true" editor-type-id="text-editor">
         <state relative-caret-position="357">
           <caret line="30" column="8" lean-forward="false" selection-start-line="30" selection-start-column="8" selection-end-line="30" selection-end-column="8" />
-          <folding />
+          <folding>
+            <element signature="imports" expanded="false" />
+          </folding>
         </state>
       </provider>
     </entry>
-    <entry file="file://$PROJECT_DIR$/src/test/java/ru/vovan/selenium/gg.java">
+    <entry file="file://$PROJECT_DIR$/src/test/java/ru/vovan/selenium/recycleBin.java">
       <provider selected="true" editor-type-id="text-editor">
         <state relative-caret-position="85">
           <caret line="5" column="15" lean-forward="false" selection-start-line="5" selection-start-column="15" selection-end-line="5" selection-end-column="15" />
@@ -1293,11 +1337,13 @@
       <provider selected="true" editor-type-id="text-editor">
         <state relative-caret-position="357">
           <caret line="30" column="52" lean-forward="true" selection-start-line="30" selection-start-column="20" selection-end-line="30" selection-end-column="52" />
-          <folding />
+          <folding>
+            <element signature="imports" expanded="false" />
+          </folding>
         </state>
       </provider>
     </entry>
-    <entry file="file://$PROJECT_DIR$/src/test/java/ru/vovan/selenium/gg.java">
+    <entry file="file://$PROJECT_DIR$/src/test/java/ru/vovan/selenium/recycleBin.java">
       <provider selected="true" editor-type-id="text-editor">
         <state relative-caret-position="85">
           <caret line="5" column="15" lean-forward="false" selection-start-line="5" selection-start-column="15" selection-end-line="5" selection-end-column="15" />
@@ -1309,7 +1355,9 @@
       <provider selected="true" editor-type-id="text-editor">
         <state relative-caret-position="544">
           <caret line="41" column="11" lean-forward="false" selection-start-line="41" selection-start-column="11" selection-end-line="41" selection-end-column="11" />
-          <folding />
+          <folding>
+            <element signature="imports" expanded="false" />
+          </folding>
         </state>
       </provider>
     </entry>
@@ -1317,7 +1365,9 @@
       <provider selected="true" editor-type-id="text-editor">
         <state relative-caret-position="0">
           <caret line="0" column="0" lean-forward="false" selection-start-line="0" selection-start-column="0" selection-end-line="0" selection-end-column="0" />
-          <folding />
+          <folding>
+            <element signature="imports" expanded="false" />
+          </folding>
         </state>
       </provider>
     </entry>
@@ -1333,52 +1383,72 @@
     <entry file="file://$PROJECT_DIR$/src/test/java/ru/vovan/selenium/Reeding.java" />
     <entry file="file://$PROJECT_DIR$/src/test/java/ru/vovan/selenium/MyTest.java" />
     <entry file="file://$PROJECT_DIR$/src/test/java/ru/vovan/selenium/TestTools.java" />
-    <entry file="file://$PROJECT_DIR$/src/test/java/ru/vovan/selenium/gg.java">
+    <entry file="file://$PROJECT_DIR$/src/test/java/ru/vovan/selenium/hz.java">
       <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="85">
-          <caret line="5" column="15" lean-forward="false" selection-start-line="5" selection-start-column="15" selection-end-line="5" selection-end-column="15" />
+        <state relative-caret-position="221">
+          <caret line="22" column="36" lean-forward="false" selection-start-line="22" selection-start-column="36" selection-end-line="22" selection-end-column="36" />
+          <folding>
+            <element signature="imports" expanded="false" />
+          </folding>
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/src/test/java/ru/vovan/selenium/recycleBin.java">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="459">
+          <caret line="27" column="73" lean-forward="false" selection-start-line="27" selection-start-column="8" selection-end-line="27" selection-end-column="73" />
           <folding />
         </state>
       </provider>
     </entry>
     <entry file="file://$PROJECT_DIR$/src/test/java/ru/vovan/selenium/sale.java">
       <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="119">
-          <caret line="16" column="4" lean-forward="false" selection-start-line="16" selection-start-column="4" selection-end-line="16" selection-end-column="4" />
-          <folding />
+        <state relative-caret-position="986">
+          <caret line="67" column="5" lean-forward="false" selection-start-line="59" selection-start-column="8" selection-end-line="67" selection-end-column="5" />
+          <folding>
+            <element signature="imports" expanded="false" />
+          </folding>
         </state>
       </provider>
     </entry>
     <entry file="file://$PROJECT_DIR$/src/test/java/ru/vovan/selenium/webElements.java">
       <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="56">
-          <caret line="37" column="62" lean-forward="false" selection-start-line="37" selection-start-column="20" selection-end-line="37" selection-end-column="62" />
-          <folding>
-            <element signature="imports" expanded="true" />
-          </folding>
+        <state relative-caret-position="1462">
+          <caret line="96" column="0" lean-forward="false" selection-start-line="96" selection-start-column="0" selection-end-line="96" selection-end-column="0" />
+          <folding />
         </state>
       </provider>
     </entry>
     <entry file="file://$PROJECT_DIR$/src/test/java/ru/vovan/selenium/testIsIntervview.java">
       <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="187">
+        <state relative-caret-position="17">
           <caret line="17" column="35" lean-forward="false" selection-start-line="17" selection-start-column="8" selection-end-line="17" selection-end-column="35" />
-          <folding />
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/src/test/java/ru/vovan/selenium/hz.java">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="221">
-          <caret line="40" column="9" lean-forward="true" selection-start-line="30" selection-start-column="8" selection-end-line="40" selection-end-column="9" />
           <folding />
         </state>
       </provider>
     </entry>
     <entry file="file://$PROJECT_DIR$/src/test/java/ru/vovan/selenium/createAccount.java">
       <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="1462">
-          <caret line="86" column="55" lean-forward="false" selection-start-line="86" selection-start-column="55" selection-end-line="86" selection-end-column="55" />
+        <state relative-caret-position="102">
+          <caret line="33" column="56" lean-forward="false" selection-start-line="33" selection-start-column="40" selection-end-line="33" selection-end-column="56" />
+          <folding />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/src/test/java/ru/vovan/selenium/hhh.java">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="119">
+          <caret line="19" column="0" lean-forward="false" selection-start-line="19" selection-start-column="0" selection-end-line="19" selection-end-column="0" />
+          <folding>
+            <element signature="imports" expanded="true" />
+          </folding>
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/src/test/java/ru/vovan/selenium/newPrise.java">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="425">
+          <caret line="25" column="36" lean-forward="false" selection-start-line="25" selection-start-column="36" selection-end-line="25" selection-end-column="36" />
           <folding>
             <element signature="imports" expanded="true" />
           </folding>

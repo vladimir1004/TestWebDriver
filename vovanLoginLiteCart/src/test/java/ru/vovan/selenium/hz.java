@@ -19,7 +19,7 @@ public class hz {
 
     @Before
     public void setUp() throws Exception {
-       // driver = new FirefoxDriver();
+       //driver = new FirefoxDriver();
         driver = new ChromeDriver();
         //driver = new EdgeDriver();
 
