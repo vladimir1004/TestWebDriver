@@ -8,6 +8,7 @@ import org.openqa.selenium.*;
 import org.openqa.selenium.chrome.ChromeDriver;
 import org.openqa.selenium.support.ui.Select;
 
+import java.io.File;
 import java.util.concurrent.TimeUnit;
 
 import static org.junit.Assert.fail;
@@ -50,17 +51,14 @@ import static org.junit.Assert.fail;
 
             driver.findElement(By.name("quantity")).sendKeys("1");
 
-            driver.findElement(By.name("quantity")).sendKeys("2");
-
-            driver.findElement(By.name("quantity")).sendKeys("3");
-
-            driver.findElement(By.name("quantity")).sendKeys("4");
-
-            driver.findElement(By.name("quantity")).sendKeys("5");
             new Select(driver.findElement(By.name("quantity_unit_id"))).selectByVisibleText("-- Select --");
             new Select(driver.findElement(By.name("quantity_unit_id"))).selectByVisibleText("pcs");
 
-            driver.findElement(By.name("new_images[]")).sendKeys("E:\\foto life\\20151020_180226.jpg");
+            String fileName = "E:\foto life\20151020_180226.jpg";
+            File file = new File(fileName);
+            new File("20151020_180226.jpg").getAbsolutePath();
+            System.out.println(new File("20151020_180226.jpg").getAbsolutePath());
+            driver.findElement(By.name("new_images[]")).sendKeys("E:\\JAVA video\\QA1\\Github\\TestWebDriver\\vovanLoginLiteCart\\20151020_180226.jpg");
 
             driver.findElement(By.name("date_valid_from")).sendKeys("2017-04-01");
 
@@ -69,42 +67,25 @@ import static org.junit.Assert.fail;
             new Select(driver.findElement(By.name("manufacturer_id"))).selectByVisibleText("ACME Corp.");
 
             driver.findElement(By.name("keywords")).sendKeys("Sea");
-
             driver.findElement(By.name("short_description[en]")).sendKeys("Sea is well");
-
             driver.findElement(By.name("head_title[en]")).sendKeys("Mediterranean Sea");
-
             driver.findElement(By.name("meta_description[en]")).sendKeys("Sea");
             driver.findElement(By.linkText("Prices")).click();
-
             driver.findElement(By.name("purchase_price")).sendKeys("1");
 
-            driver.findElement(By.name("purchase_price")).sendKeys("2");
 
-            driver.findElement(By.name("purchase_price")).sendKeys("3");
-
-            driver.findElement(By.name("purchase_price")).sendKeys("44");
             new Select(driver.findElement(By.name("purchase_price_currency_code"))).selectByVisibleText("US Dollars");
-
-            driver.findElement(By.name("gross_prices[USD]")).sendKeys("1");
-
-            driver.findElement(By.name("gross_prices[USD]")).sendKeys("2");
-
-            driver.findElement(By.name("gross_prices[USD]")).sendKeys("3");
-            driver.findElement(By.name("gross_prices[EUR]")).clear();
-            driver.findElement(By.name("gross_prices[EUR]")).sendKeys("1");
-
-            driver.findElement(By.name("gross_prices[EUR]")).sendKeys("2");
-
-            driver.findElement(By.name("gross_prices[EUR]")).sendKeys("3");
-
-            driver.findElement(By.name("gross_prices[EUR]")).sendKeys("4");
-
-            driver.findElement(By.name("gross_prices[EUR]")).sendKeys("3");
-
-            driver.findElement(By.name("gross_prices[EUR]")).sendKeys("2");
+            driver.findElement(By.name("gross_prices[USD]")).sendKeys("12345");
+            driver.findElement(By.name("gross_prices[EUR]")).sendKeys("24567");
+            driver.manage().timeouts().implicitlyWait(5,TimeUnit.MILLISECONDS);
             driver.findElement(By.name("save")).click();
 
+            for (int second = 0;; second++) {
+                if (second >= 60) fail("timeout");
+                try { if (isElementPresent(By.name("save"))) break;
+                } catch (Exception e) {}
+                Thread.sleep(1000);
+            }
         }
 
         @After
