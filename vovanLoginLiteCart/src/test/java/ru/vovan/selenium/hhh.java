@@ -5,12 +5,10 @@ import org.junit.Before;
 import org.junit.Test;
 import org.openqa.selenium.*;
 import org.openqa.selenium.chrome.ChromeDriver;
-import org.openqa.selenium.support.ui.WebDriverWait;
 
 import java.util.concurrent.TimeUnit;
 
 import static org.junit.Assert.fail;
-import static org.openqa.selenium.support.ui.ExpectedConditions.presenceOfElementLocated;
 
 public class hhh {
     private WebDriver driver;
@@ -22,34 +20,105 @@ public class hhh {
     @Before
     public void setUp() throws Exception {
         driver = new ChromeDriver();
-        //baseUrl = "http://change-this-to-the-site-you-are-testing/";
         driver.manage().timeouts().implicitlyWait(30, TimeUnit.SECONDS);
-      //  WebDriverWait wait = new WebDriverWait(driver,4);
-        //WebElement element= wait.until(d ->d.findElement(By.xpath("//*[@id='cart']/a[2]")) );
         }
 
     @Test
     public void testRemove() throws Exception {
-        WebDriverWait wait = new WebDriverWait(driver, 10/*seconds*/);
-        WebElement element = wait.until(presenceOfElementLocated(By.xpath("//*[@id='cart']/a[2]")));
-        WebElement element2 = wait.until((WebDriver d) -> d.findElement(By.name("q")));
 
         driver.get("http://localhost/litecart/en/");
         driver.findElement(By.xpath("//img[@alt='Blue Duck']")).click();
-               driver.findElement(By.name("add_cart_product")).click();
-
-
-
-
-        driver.findElement(By.xpath("//img[@alt='Red Duck']")).click();
         driver.findElement(By.name("add_cart_product")).click();
-        //driver.findElement(By.xpath("//img[@alt='Blue Duck']")).click();
+        for (int second = 0; ; second++) {
+            if (second >= 60) fail("timeout");
+            try {
+                if (isElementPresent(By.name("add_cart_product"))) break;
+            } catch (Exception e) {
+            }
+            Thread.sleep(1000);
+        }
+        //driver.findElement(By.xpath(".//*[@id='site-menu']/ul/li[1]/a/i")).click();
+        driver.findElement(By.xpath(".//*[@id='box-similar-products']/div/ul/li[3]/a[1]/div[1]/img")).click();
+        for (int second = 0; ; second++) {
+            if (second >= 60) fail("timeout");
+            try {
+                if (isElementPresent(By.xpath("//img[@alt='Red Duck']"))) break;
+            } catch (Exception e) {
+            }
+            Thread.sleep(1000);
+        }
+
+
+        driver.findElement(By.name("add_cart_product")).click();
+
+        for (int second = 0; ; second++) {
+            if (second >= 60) fail("timeout");
+            try {
+                if (isElementPresent(By.name("add_cart_product"))) break;
+            } catch (Exception e) {
+            }
+            Thread.sleep(1000);
+        }
+
+
         driver.findElement(By.xpath("//img[@alt='Green Duck']")).click();
+        for (int second = 0; ; second++) {
+            if (second >= 60) fail("timeout");
+            try {
+                if (isElementPresent(By.xpath("//img[@alt='Green Duck']"))) break;
+            } catch (Exception e) {
+            }
+            Thread.sleep(1000);
+        }
+
         driver.findElement(By.name("add_cart_product")).click();
+        for (int second = 0; ; second++) {
+            if (second >= 60) fail("timeout");
+            try {
+                if (isElementPresent(By.name("add_cart_product"))) break;
+            } catch (Exception e) {
+            }
+            Thread.sleep(1000);
+        }
         driver.findElement(By.linkText("Checkout »")).click();
+        for (int second = 0; ; second++) {
+            if (second >= 60) fail("timeout");
+            try {
+                if (isElementPresent(By.linkText("Checkout »"))) break;
+            } catch (Exception e) {
+            }
+            Thread.sleep(1000);
+        }
+        driver.findElement(By.xpath(".//*[@id='box-checkout-cart']/ul/li[1]/a/img")).click();
         driver.findElement(By.name("remove_cart_item")).click();
+        for (int second = 0; ; second++) {
+            if (second >= 60) fail("timeout");
+            try {
+                if (isElementPresent(By.name("remove_cart_item"))) break;
+            } catch (Exception e) {
+            }
+            Thread.sleep(1000);
+        }
+        driver.findElement(By.xpath(".//*[@id='box-checkout-cart']/ul/li[2]/a/img")).click();
         driver.findElement(By.name("remove_cart_item")).click();
+        for (int second = 0; ; second++) {
+            if (second >= 60) fail("timeout");
+            try {
+                if (isElementPresent(By.name("remove_cart_item"))) break;
+            } catch (Exception e) {
+            }
+            Thread.sleep(1000);
+        }
+        driver.findElement(By.xpath(".//*[@id='box-checkout-cart']/ul/li[3]/a/img")).click();
         driver.findElement(By.name("remove_cart_item")).click();
+        for (int second = 0; ; second++) {
+            if (second >= 60) fail("timeout");
+            try {
+                if (isElementPresent(By.name("remove_cart_item"))) break;
+            } catch (Exception e) {
+            }
+            Thread.sleep(1000);
+        }
         driver.findElement(By.linkText("<< Back")).click();
         driver.get("http://localhost/litecart/en/");
     }
