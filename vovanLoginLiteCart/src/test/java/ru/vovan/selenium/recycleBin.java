@@ -6,8 +6,7 @@ import org.junit.Before;
 import org.junit.Test;
 import org.openqa.selenium.*;
 import org.openqa.selenium.chrome.ChromeDriver;
-
-import java.util.concurrent.TimeUnit;
+import org.openqa.selenium.support.ui.WebDriverWait;
 
 import static org.junit.Assert.fail;
 
@@ -16,12 +15,14 @@ public class recycleBin {
     private String baseUrl;
     private boolean acceptNextAlert = true;
     private StringBuffer verificationErrors = new StringBuffer();
-
+    private WebDriverWait wait;
 
     @Before
     public void setUp() throws Exception {
         driver = new ChromeDriver();
-        driver.manage().timeouts().implicitlyWait(30, TimeUnit.SECONDS);
+        //driver = new FirefoxDriver();
+        wait = new WebDriverWait(driver, 10);
+        //driver.manage().timeouts().implicitlyWait(30, TimeUnit.SECONDS);
     }
 
     @Test
@@ -38,6 +39,7 @@ public class recycleBin {
             }
             Thread.sleep(1000);
         }
+
 
         driver.findElement(By.xpath("//img[@alt='Red Duck']")).click();
         for (int second = 0; ; second++) {
@@ -60,6 +62,7 @@ public class recycleBin {
             }
             Thread.sleep(1000);
         }
+        // driver.wait(1500);
 
 
         driver.findElement(By.xpath("//img[@alt='Green Duck']")).click();
@@ -81,25 +84,13 @@ public class recycleBin {
             }
             Thread.sleep(1000);
         }
+        // driver.wait(1500);
         driver.findElement(By.linkText("Checkout »")).click();
-        for (int second = 0; ; second++) {
-            if (second >= 60) fail("timeout");
-            try {
-                if (isElementPresent(By.linkText("Checkout »"))) break;
-            } catch (Exception e) {
-            }
-            Thread.sleep(1000);
-        }
+
         driver.findElement(By.xpath(".//*[@id='box-checkout-cart']/ul/li[1]/a/img")).click();
-        driver.findElement(By.name("remove_cart_item")).click();
-        for (int second = 0; ; second++) {
-            if (second >= 60) fail("timeout");
-            try {
-                if (isElementPresent(By.name("remove_cart_item"))) break;
-            } catch (Exception e) {
-            }
-            Thread.sleep(1000);
-        }
+        // driver.wait();
+        //driver.wait(1500);
+
         driver.findElement(By.xpath(".//*[@id='box-checkout-cart']/ul/li[2]/a/img")).click();
         driver.findElement(By.name("remove_cart_item")).click();
         for (int second = 0; ; second++) {
@@ -122,6 +113,7 @@ public class recycleBin {
         }
         driver.findElement(By.linkText("<< Back")).click();
         driver.get("http://localhost/litecart/en/");
+        //driver.wait(1500);
     }
 
     @After
@@ -166,3 +158,6 @@ public class recycleBin {
         }
     }
 }
+
+
+
