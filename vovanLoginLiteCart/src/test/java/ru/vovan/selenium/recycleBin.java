@@ -62,7 +62,7 @@ public class recycleBin {
             }
             Thread.sleep(1000);
         }
-        // driver.wait(1500);
+
 
 
         driver.findElement(By.xpath("//img[@alt='Green Duck']")).click();
@@ -88,8 +88,7 @@ public class recycleBin {
         driver.findElement(By.linkText("Checkout »")).click();
 
         driver.findElement(By.xpath(".//*[@id='box-checkout-cart']/ul/li[1]/a/img")).click();
-        // driver.wait();
-        //driver.wait(1500);
+
 
         driver.findElement(By.xpath(".//*[@id='box-checkout-cart']/ul/li[2]/a/img")).click();
         driver.findElement(By.name("remove_cart_item")).click();
